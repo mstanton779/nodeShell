@@ -11,7 +11,6 @@ process.stdin.on('data', data => {
     ls();
   } else if (com.startsWith('cat')) {
     const fileName = `./${com.slice(4)}`;
-    console.log(fileName);
     cat(fileName);
   } else {
     process.stdout.write('You typed: ' + com);
