@@ -1,0 +1,23 @@
+{
+  "name": "shell",
+  "version": "1.0.0",
+  "main": "bash.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mstanton779/nodeShell.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mstanton779/nodeShell/issues"
+  },
+  "homepage": "https://github.com/mstanton779/nodeShell#readme",
+  "dependencies": {
+    "request": "^2.88.0"
+  },
+  "devDependencies": {},
+  "description": ""
+}
